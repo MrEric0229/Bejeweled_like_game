@@ -1,0 +1,530 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+input[type=text], input[type=password]{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.index_header{
+    margin-top: 150px;
+}
+
+.
+
+.upload_text{
+    color: #a32638;
+}
+
+.upload_form{
+    margin-top: 5px;
+}
+
+.login_div, .change_pass_div, .upload_result{
+    margin-top: 100px;
+}
+
+.username_text, .sign_up_email_text, .sign_up_username_text, .sign_up_password_text{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #a32638;
+}
+.sign_up_submit_button, .login_button, .change_pass_submit_button{
+    margin-top: 30px;
+}
+
+.change_password_button{
+    width: 180px;
+    background-color: #a32638;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.submit_pic, .select_pic{
+    width: 265px;
+    background-color: #a32638;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign_up_cancel_button, .sign_up_submit_button, .login_button, .sign_up_button, .change_pass_submit_button, .change_pass_cancel_button, .leader_board_return, .back_button {
+    width: 200px;
+    background-color: #a32638;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign_up_cancel_button:hover, .sign_up_submit_button:hover, .login_button:hover, .sign_up_button:hover, .change_pass_submit_button:hover, .change_pass_cancel_button:hover, .back_button:hover, .leader_board_return:hover, .submit_pic:hover{
+    background-color: #8f2433;
+}
+
+.username_line{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #a32638;
+}
+
+.sign_up_div, .change_pass_div, .upload_result{
+    text-align: center;
+}
+
+.upload_result{
+
+}
+
+.user_profile{
+    float:left;
+    width:10%;
+    margin-left: 90%;
+    margin-bottom: 150px
+}
+
+.small_pic_div{
+    float:left;
+    //width:5px;
+}
+
+.dropbtn {
+    background-color: #a32638;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:100px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+    float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #8f2433;
+}
+
+.leader_board_div{
+    color: #a32638;
+    text-align: center;
+    float: left;
+    width:33%;
+    margin-left: 33%;
+}
+
+.change_pass_form{
+    margin-top: 50px;
+}
+
+table{
+    align: center;
+    text-align: center;
+    color: white;
+    background-color: #a32638;
+    width: 90%;
+}
+
+.leader_board_table{
+    width:100%;
+}
+
+tr, th{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    background-color: #a32638
+}
+
+tr:hover {
+    background-color: #ad2f3c;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.profile_div{
+    float:left;
+    width:30%;
+    margin-left: 38%;
+    margin-top: 50px;
+}
+
+.detail_div{
+    float:left;
+    width:50%;
+    margin-right: 10%
+}
+
+.change_password_button{
+    margin-left: 5px;
+}
+.picture_div{
+    float:right;
+    width: 35%;
+}
+
+.score_div{
+    float: left;
+    border: solid red;
+    width:99%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.score_h1, .change_pass_h1{
+    text-align:center;
+    color: #a32638;
+}
+
+.score_table_div{
+    text-align: center;
+    margin-left: 10%;
+}
+
+.profile_back_button_div{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leader_board_link{
+    color: white;
+}
+
+body {
+    background-color: #262626;
+    /**margin-top: 150px;
+    */
+}
+
+header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+header h1{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: #a32638;
+}
+
+header #leader_board_button {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: #3b7a57;
+    font-family: Arial;
+    border-radius: 5px;
+
+}
+
+header #leader_board_button:hover {
+    background-color: #a8bb19;
+}
+
+
+header #newgamebutton {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: #3b7a57;
+    font-family: Arial;
+    border-radius: 5px;
+
+}
+
+header #newgamebutton:hover {
+    background-color: #a8bb19;
+}
+
+header #returnbutton {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: #3b7a57;
+    font-family: Arial;
+    border-radius: 5px;
+
+}
+
+header #returnbutton:hover {
+    background-color: #a8bb19;
+}
+
+header p {
+    font-family: Arial;
+    font-size: 25px;
+    color: #ddd;
+    margin: 20px auto;
+}
+
+/*CSS of the back board*/
+#grid-container {/*
+    width: 460px;
+    height: 460px;*/
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #222222;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+/*CSS of 16 boxes*/
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #2C3E50;
+    position: absolute;
+}
+
+.grid-cell img {
+    width: 100%;
+    height: 100%:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
